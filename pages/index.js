@@ -288,9 +288,9 @@ export default function Home() {
       </section>
 
       <section id='cloud'>
-        <div className={`container-fluid ${styles.bg_img_3}`}>
+        <div className={`container ${styles.bg_img_3}`}>
           <div className='row py-5 mt-5 mx-0'>
-            <div className='col-lg-6'>
+            <div className='col-lg-6 mb-4'>
               <div className="d-flex justify-content-center">
                 <div >
                   <h1 className={styles.text_6}>Our</h1>
@@ -316,13 +316,13 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='col-lg-6'>
+            <div className='col-lg-6 mb-4'>
               <div className="d-flex justify-content-center">
                 <Image
-                  src="/images/Group_1.png"
+                  src="/images/Group_3.png"
                   alt="Image"
-                  width={554}
-                  height={571}
+                  width={661}
+                  height={415}
                 />
               </div>
             </div>
