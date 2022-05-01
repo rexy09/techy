@@ -60,7 +60,7 @@ export default function Home() {
 
                 <div className="d-flex justify-content-center">
                   <div>
-                    <h1 className={styles.text_1}>Let's make you,</h1>
+                    <h1 className={styles.text_1}>Let<span>&#39;</span>s make you,</h1>
                     <h1 className={styles.text_1}>an eye catching</h1>
                     <h1 className={styles.text_2}>designs.</h1>
                     <p className={styles.text_3}>Stand out from the rest with your very own <br />
@@ -188,7 +188,7 @@ export default function Home() {
                     <br />
                     presented with the actual content still not being ready.
                     <br />
-                    Think of a news blog that's filled with content hourly on
+                    Think of a news blog that<span>&#39;</span>s filled with content hourly on
                     <br />
                     the day of going live. </p>
                   <a className="" href="#">
@@ -302,7 +302,7 @@ export default function Home() {
                     <br />
                     presented with the actual content still not being ready.
                     <br />
-                    Think of a news blog that's filled with content hourly on
+                    Think of a news blog that<span>&#39;</span>s filled with content hourly on
                     <br />
                     the day of going live. </p>
                   <a className="" href="#">
@@ -420,7 +420,7 @@ export default function Home() {
         </div>
 
       </footer>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossOrigin="anonymous"></script>
+      <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossOrigin="anonymous"></script>
     </div>
   )
 }
