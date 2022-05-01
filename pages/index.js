@@ -8,7 +8,8 @@ export default function Home() {
       <Head>
         <title>Techy</title>
         <meta name="description" content="Techy" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/techy_1.png" />
+
         {/* Boostrap */}
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
         {/* Fonts */}
@@ -43,7 +44,7 @@ export default function Home() {
                 <a class="nav-link" href="#cloud">Cloud</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#contact">Contact Us</a>
               </li>
 
             </ul>
@@ -51,21 +52,147 @@ export default function Home() {
           </div>
         </div>
       </nav>
+      <div className={styles.bg_img_5}>
+        <div className='container mb-5'>
+          <div className={styles.container_1}>
+            <div className='row py-5 px-lg-5'>
+              <div className='col-lg-6'>
 
-      <div className='container'>
-        <div className={styles.container_1}>
-          <div className='row py-5 px-lg-5'>
-            <div className='col-lg-6'>
+                <div class="d-flex justify-content-center">
+                  <div>
+                    <h1 className={styles.text_1}>Let's make you,</h1>
+                    <h1 className={styles.text_1}>an eye catching</h1>
+                    <h1 className={styles.text_2}>designs.</h1>
+                    <p className={styles.text_3}>Stand out from the rest with your very own <br />
+                      elegant and unique design.</p>
+                    <a class="" href="#">
+                      <div className={styles.button_1}>
+                        <div class="d-flex align-items-center justify-content-center" style={{ height: 59, width: 302 }}>
+                          <div>
+                            Book now <i class="fa-solid fa-arrow-right-long fa-lg ps-2"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
 
-              <div class="d-flex justify-content-center">
-                <div>
-                  <h1 className={styles.text_1}>Let's make you,</h1>
-                  <h1 className={styles.text_1}>an eye catching</h1>
-                  <h1 className={styles.text_2}>designs.</h1>
-                  <p className={styles.text_3}>Stand out from the rest with your very own <br />
-                    elegant and unique design.</p>
+                    <div class="d-flex flex-row justify-content-between mt-5">
+                      <div>
+                        <span className={styles.text_4}>21</span>
+                        <br />
+                        <span className={styles.text_5}>Clients</span>
+                      </div>
+                      <div>
+                        <span className={styles.text_4}>38</span>
+                        <br />
+                        <span className={styles.text_5}>Projects</span>
+                      </div>
+                      <div>
+                        <span className={styles.text_4}>17</span>
+                        <br />
+                        <span className={styles.text_5}>Companies</span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+              <div className='col-lg-6'>
+                <Image
+                  src="/images/block-1.png"
+                  alt="Image"
+                  width={662}
+                  height={460}
+                />
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div className='my-5' style={{ backgroundColor: "#5c415d1a" }} >
+          <div class="d-flex flex-row justify-content-around mt-5 align-items-center">
+            <div>
+              <Image
+                src="/images/Django.png"
+                alt="Image"
+                width={120}
+                height={120}
+              />
+            </div>
+            <div>
+              <Image
+                src="/images/CSS3.png"
+                alt="Image"
+                width={106}
+                height={99}
+              />
+            </div>
+            <div>
+              <Image
+                src="/images/PostgreSQL.png"
+                alt="Image"
+                width={79}
+                height={80}
+              />
+            </div>
+            <div>
+              <Image
+                src="/images/Html 5.png"
+                alt="Image"
+                width={86}
+                height={85}
+              />
+            </div>
+            <div>
+              <Image
+                src="/images/React.png"
+                alt="Image"
+                width={91}
+                height={91}
+              />
+            </div>
+            <div>
+              <Image
+                src="/images/JavaScript.png"
+                alt="Image"
+                width={81}
+                height={81}
+              />
+            </div>
+
+          </div>
+        </div>
+
+        <section id='technologies'>
+          <div className='container-fluid'>
+            <div className='row py-5 mt-5 mx-0'>
+              <div className='col-lg-6'>
+                <div class="d-flex justify-content-center">
+                  <Image
+                    src="/images/Group_1.png"
+                    alt="Image"
+                    width={554}
+                    height={571}
+                  />
+                </div>
+              </div>
+              <div className='col-lg-6'>
+                <div className={styles.bg_img_1}>
+                  <h1 className={styles.text_6}>How we use these,</h1>
+                  <h1 className={styles.text_7}>Technologies</h1>
+                  <p className={styles.text_8}>In a professional context it often happens that private or
+                    <br />
+                    corporate clients corder a publication to be made and
+                    <br />
+                    presented with the actual content still not being ready.
+                    <br />
+                    Think of a news blog that's filled with content hourly on
+                    <br />
+                    the day of going live. </p>
                   <a class="" href="#">
-                    <div className={styles.button_1}>
+                    <div className={styles.button_2}>
                       <div class="d-flex align-items-center justify-content-center" style={{ height: 59, width: 302 }}>
                         <div>
                           Book now <i class="fa-solid fa-arrow-right-long fa-lg ps-2"></i>
@@ -73,139 +200,13 @@ export default function Home() {
                       </div>
                     </div>
                   </a>
-
-                  <div class="d-flex flex-row justify-content-between mt-5">
-                    <div>
-                      <span className={styles.text_4}>21</span>
-                      <br />
-                      <span className={styles.text_5}>Clients</span>
-                    </div>
-                    <div>
-                      <span className={styles.text_4}>38</span>
-                      <br />
-                      <span className={styles.text_5}>Projects</span>
-                    </div>
-                    <div>
-                      <span className={styles.text_4}>17</span>
-                      <br />
-                      <span className={styles.text_5}>Companies</span>
-                    </div>
-                  </div>
-
                 </div>
               </div>
-
-            </div>
-            <div className='col-lg-6'>
-              <Image
-                src="/images/block-1.png"
-                alt="Image"
-                width={662}
-                height={460}
-              />
             </div>
           </div>
+        </section>
 
-        </div>
       </div>
-
-
-      <div style={{ backgroundColor: "#5c415d1a" }}>
-        <div class="d-flex flex-row justify-content-around mt-5 align-items-center">
-          <div>
-            <Image
-              src="/images/Django.png"
-              alt="Image"
-              width={120}
-              height={120}
-            />
-          </div>
-          <div>
-            <Image
-              src="/images/CSS3.png"
-              alt="Image"
-              width={106}
-              height={99}
-            />
-          </div>
-          <div>
-            <Image
-              src="/images/PostgreSQL.png"
-              alt="Image"
-              width={79}
-              height={80}
-            />
-          </div>
-          <div>
-            <Image
-              src="/images/Html 5.png"
-              alt="Image"
-              width={86}
-              height={85}
-            />
-          </div>
-          <div>
-            <Image
-              src="/images/React.png"
-              alt="Image"
-              width={91}
-              height={91}
-            />
-          </div>
-          <div>
-            <Image
-              src="/images/JavaScript.png"
-              alt="Image"
-              width={81}
-              height={81}
-            />
-          </div>
-
-        </div>
-      </div>
-
-      <section id='technologies'>
-        <div className='container-fluid'>
-          <div className='row py-5 mt-5 mx-0'>
-            <div className='col-lg-6'>
-              <div class="d-flex justify-content-center">
-                <Image
-                  src="/images/Group_1.png"
-                  alt="Image"
-                  width={554}
-                  height={571}
-                />
-              </div>
-            </div>
-            <div className='col-lg-6'>
-              <div className={styles.bg_img_1}>
-                <h1 className={styles.text_6}>How we use these,</h1>
-                <h1 className={styles.text_7}>Technologies</h1>
-                <p className={styles.text_8}>In a professional context it often happens that private or
-                  <br />
-                  corporate clients corder a publication to be made and
-                  <br />
-                  presented with the actual content still not being ready.
-                  <br />
-                  Think of a news blog that's filled with content hourly on
-                  <br />
-                  the day of going live. </p>
-                <a class="" href="#">
-                  <div className={styles.button_2}>
-                    <div class="d-flex align-items-center justify-content-center" style={{ height: 59, width: 302 }}>
-                      <div>
-                        Book now <i class="fa-solid fa-arrow-right-long fa-lg ps-2"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
       <section id='services'>
         <div className='container-fluid mb-5'>
           <div class="d-flex justify-content-center">
@@ -331,43 +332,45 @@ export default function Home() {
       </section>
 
 
-      <div className='container mb-5'>
-        <div class="d-flex justify-content-center">
-          <div className={[styles.container_2, styles.bg_img_4].join(" ")}>
-            <div className='px-lg-5 py-4'>
-              <div class="d-flex justify-content-center">
-                <div>
-                  <h1 ><span className={styles.text_16}>Book now</span></h1>
+     <section id='contact'>
+        <div className='container mb-5'>
+          <div class="d-flex justify-content-center">
+            <div className={[styles.container_2, styles.bg_img_4].join(" ")}>
+              <div className='px-lg-5 py-4'>
+                <div class="d-flex justify-content-center">
+                  <div>
+                    <h1 ><span className={styles.text_16}>Book now</span></h1>
 
+                  </div>
                 </div>
-              </div>
-              <p className={styles.text_17}>Enter your email address to book now
-                <br />and get you signup coupon</p>
-              <div class="d-flex justify-content-center">
-                <div className={styles.container_4}>
-                  <form action="" method="post">
-                    <div class="input-group">
-                      <input type="email" class="form-control form-control-lg border-0" placeholder='Your email' aria-label="Your email" />
-                      <a type="submit">
-                        <div className={styles.button_3}>
-                          <div class="d-flex align-items-center justify-content-center" style={{ height: 57, width: 147 }}>
-                            Book now
+                <p className={styles.text_17}>Enter your email address to book now
+                  <br />and get you signup coupon</p>
+                <div class="d-flex justify-content-center">
+                  <div className={styles.container_4}>
+                    <form action="" method="post">
+                      <div class="input-group">
+                        <input type="email" class="form-control form-control-lg border-0" placeholder='Your email' aria-label="Your email" />
+                        <a type="submit">
+                          <div className={styles.button_3}>
+                            <div class="d-flex align-items-center justify-content-center" style={{ height: 57, width: 147 }}>
+                              Book now
+                            </div>
                           </div>
-                        </div>
-                      </a>
-                    </div>
-                  </form>
+                        </a>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
+
+
             </div>
-
-
           </div>
         </div>
-      </div>
+     </section>
 
       <footer className={styles.container_3}>
-        <div className='container-fluid py-3 '>
+        <div className={`container-fluid py-5`}>
           <div className='row mx-0'>
             <div className='col-lg-2 mb-4'>
               <div class="d-flex justify-content-center">
@@ -392,13 +395,19 @@ export default function Home() {
             <div className='col-lg-2 mb-4'>
               <div class="d-flex flex-row justify-content-center">
                 <div className='px-3'>
-                  <i class="fa-brands fa-facebook fa-2x text-white"></i>
+                  <a href='https://facebook.com/'>
+                    <i class="fa-brands fa-facebook fa-2x text-white"></i>
+                  </a>
                 </div>
                 <div className='px-3'>
-                  <i class="fa-brands fa-linkedin-in fa-2x text-white"></i>
+                  <a href='https://linkedin.com/'>
+                    <i class="fa-brands fa-linkedin-in fa-2x text-white"></i>
+                  </a>
                 </div>
                 <div className='px-3'>
-                  <i class="fa-brands fa-twitter fa-2x text-white"></i>
+                  <a href='https://twitter.com/'>
+                    <i class="fa-brands fa-twitter fa-2x text-white"></i>
+                  </a>
                 </div>
               </div>
             </div>
