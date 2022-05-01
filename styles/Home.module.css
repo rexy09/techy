@@ -32,22 +32,23 @@
 
 }
 
+/* Media Query max width 426px */
 @media screen and (max-width:425px) {
  .text_1 {
    font-weight: 700;
-   font-size: 45px;
-   line-height: 75px;
+   font-size: 35px;
+   line-height: 35px;
  }
  .text_3 {
    font-weight: 300;
-   font-size: 18px;
+   font-size: 14px;
    line-height: 27px;
    color: #3F2C40;
  }
 
  .text_17 {
    font-weight: 500;
-   font-size: 20px;
+   font-size: 15px;
    line-height: 34px;
    color: #FFFFFF;
    text-align: center;
@@ -60,9 +61,71 @@
    background-position: -50px 70px;
    padding-top: 50px;
  }
+ .text_2 {
+   font-weight: 800;
+   font-size: 70px;
+   line-height: 83px;
+   color: #FFFFFF;
+   text-shadow: 9px 8px 11px rgba(0, 0, 0, 0.12);
+ }
+
+ .text_9 {
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 68px;
+   color: #24AAE2;
+
+ }
+
+ .text_10 {
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 68px;
+   color: #5C415D;
+
+ }
+
+.text_11 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 34px;
+  color: #000000;
+  text-align: center;
+}
+
+.text_6 {
+  margin: 0 !important;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 41px;
+  color: #5C415D;
+}
+
+.text_7 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 68px;
+  color: #3F2C40;
+}
+
+.text_8 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+.text_18 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
 
 }
 
+
+/* Media Query min width 426px */
 @media screen and (min-width:426px) {
   .text_1 {
     font-weight: 700;
@@ -91,31 +154,36 @@
     background-position: 150px 30px;
     padding-top: 50px;
   }
+  .text_2 {
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 123px;
+    color: #FFFFFF;
+    text-shadow: 9px 8px 11px rgba(0, 0, 0, 0.12);
+  }
 
-}
+  .text_9 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    color: #24AAE2;
 
+  }
 
-.text_2 {
-  font-weight: 800;
-  font-size: 90px;
-  line-height: 123px;
-  color: #FFFFFF;
-  text-shadow: 9px 8px 11px rgba(0, 0, 0, 0.12);
-}
+  .text_10 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    color: #5C415D;
 
-.text_4 {
-  font-weight: 800;
-  font-size: 50px;
-  line-height: 68px;
-  color: #FFFFFF;
-  text-shadow: 9px 8px 11px rgba(0, 0, 0, 0.12);
-}
+  }
 
-.text_5 {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 27px;
-  color: #FFFFFF;
+.text_11 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  color: #000000;
+  text-align: center;
 }
 
 .text_6 {
@@ -140,29 +208,32 @@
   color: #000000;
 }
 
-.text_9 {
-  font-weight: 700;
+.text_18 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+
+}
+
+
+.text_4 {
+  font-weight: 800;
   font-size: 50px;
   line-height: 68px;
-  color: #24AAE2;
-
+  color: #FFFFFF;
+  text-shadow: 9px 8px 11px rgba(0, 0, 0, 0.12);
 }
 
-.text_10 {
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 68px;
-  color: #5C415D;
-
+.text_5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
 }
 
-.text_11 {
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 34px;
-  color: #000000;
-  text-align: center;
-}
 
 .text_12 {
   font-weight: 700;
@@ -206,19 +277,10 @@
 
 
 
-.text_18 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 27px;
-  color: #FFFFFF;
-}
+
 
 .text_18:hover {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 27px;
   color: #3F2C40;
-  
 }
 
 .text_19 {
@@ -230,7 +292,7 @@
 
 .button_1 {
   margin: 0 !important;
-  width: 302px;
+  max-width: 302px;
   height: 59px;
   background-color: #3F2C40 !important;
   border-radius: 20px;
@@ -242,7 +304,7 @@
 
 .button_2 {
   margin: 0 !important;
-  width: 302px;
+  max-width: 302px;
   height: 59px;
   background-color: #24AAE2 !important;
   border-radius: 20px;
@@ -301,7 +363,7 @@
 
 .card_1 {
   width: 375px;
-  height: 471px;
+  min-height: 471px;
   background: #FFFFFF;
   box-shadow: 0px 0px 17px 6px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
@@ -310,7 +372,7 @@
 
 .card_2 {
   width: 375px;
-  height: 471px;
+  min-height: 471px;
   background: #3F2C40;
   box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.05);
   border-radius: 6px;

@@ -55,11 +55,10 @@ export default function Home() {
       <div className={styles.bg_img_5}>
         <div className='container mb-5'>
           <div className={styles.container_1}>
-            <div className='row py-5 px-lg-5'>
+            <div className='row py-4 px-lg-5'>
               <div className='col-lg-6'>
-
                 <div className="d-flex justify-content-center">
-                  <div>
+                  <div className='' style={{ maxWidth: '100%'}}>
                     <h1 className={styles.text_1}>Let<span>&#39;</span>s make you,</h1>
                     <h1 className={styles.text_1}>an eye catching</h1>
                     <h1 className={styles.text_2}>designs.</h1>
@@ -75,7 +74,7 @@ export default function Home() {
                       </div>
                     </a>
 
-                    <div className="d-flex flex-row justify-content-between mt-5">
+                    <div className="d-flex flex-row justify-content-between mt-5" style={{maxWidth:400}}>
                       <div>
                         <span className={styles.text_4}>21</span>
                         <br />
@@ -217,7 +216,7 @@ export default function Home() {
           </div>
           <p className={styles.text_11}>we work as a Python development agency for 13+ years and are able to cover  <br />the business may need</p>
           <div className={styles.bg_img_2}>
-            <div className='row py-5 mt-5 mx-0'>
+            <div className='row py-lg-5 mt-lg-5 mx-0'>
               <div className='col-lg-4 d-flex justify-content-center mb-4'>
                 <div className={styles.card_1}>
                   <Image
