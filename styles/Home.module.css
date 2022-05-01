@@ -6,27 +6,79 @@
   width: 100%;
   background: linear-gradient(296deg, #24AAE2 40.17%, #BDECFF 90.8%);
   border-radius: 19px;
+  padding: 5px;
 }
 
-.container_2{
-  width: 1201px;
+.container_2 {
+  width:100%;
   height: 319.24px;
   background: #3F2C40;
   border-radius: 45px;
+  padding: 5px;
 }
 
 .container_3 {
   width: 100%;
-  height: 165px;
   background: #24AAE2;
   display: flex;
   align-items: center;
 }
-.text_1 {
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 75px;
+
+.container_4{
+  width: 423px;
+  background: #FFFFFF;
+  border-radius: 24px;
+  padding: 10px;
+
 }
+
+@media screen and (max-width:425px) {
+ .text_1 {
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 75px;
+ }
+ .text_3 {
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 27px;
+   color: #3F2C40;
+ }
+
+ .text_17 {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 34px;
+   color: #FFFFFF;
+   text-align: center;
+ }
+
+}
+
+@media screen and (min-width:426px) {
+  .text_1 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 75px;
+  }
+  .text_3 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    color: #3F2C40;
+  }
+
+  .text_17 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+}
+
+
 
 .text_2 {
   font-weight: 800;
@@ -36,19 +88,12 @@
   text-shadow: 9px 8px 11px rgba(0, 0, 0, 0.12);
 }
 
-.text_3 {
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 27px;
-  color: #3F2C40;
-}
-
 .text_4 {
- font-weight: 800;
- font-size: 50px;
- line-height: 68px;
- color: #FFFFFF;
- text-shadow: 9px 8px 11px rgba(0, 0, 0, 0.12);
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 68px;
+  color: #FFFFFF;
+  text-shadow: 9px 8px 11px rgba(0, 0, 0, 0.12);
 }
 
 .text_5 {
@@ -60,20 +105,20 @@
 
 .text_6 {
   margin: 0 !important;
- font-weight: 700;
- font-size: 30px;
- line-height: 41px;
- color: #5C415D;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #5C415D;
 }
 
 .text_7 {
- font-weight: 700;
- font-size: 50px;
- line-height: 68px;
- color: #3F2C40;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 68px;
+  color: #3F2C40;
 }
 
-.text_8{
+.text_8 {
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
@@ -81,10 +126,10 @@
 }
 
 .text_9 {
- font-weight: 700;
- font-size: 50px;
- line-height: 68px;
- color: #24AAE2;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 68px;
+  color: #24AAE2;
 
 }
 
@@ -96,7 +141,7 @@
 
 }
 
-.text_11{
+.text_11 {
   font-weight: 400;
   font-size: 25px;
   line-height: 34px;
@@ -104,7 +149,7 @@
   text-align: center;
 }
 
-.text_12{
+.text_12 {
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
@@ -118,10 +163,10 @@
   font-size: 20px;
   line-height: 27px;
   color: #FFFFFF;
-  
+
 }
 
-.text_14{
+.text_14 {
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
@@ -136,29 +181,24 @@
   color: #FFFFFF;
   padding-bottom: 5px;
 }
-.text_16{
+
+.text_16 {
   font-weight: 400;
   font-size: 22px;
   line-height: 30px;
   color: #FFFFFF;
 }
 
-.text_17{
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 34px;
-  color: #FFFFFF;
-  text-align: center;
-}
 
-.text_18{
+
+.text_18 {
   font-weight: 500;
   font-size: 20px;
   line-height: 27px;
   color: #FFFFFF;
 }
 
-.text_19{
+.text_19 {
   font-weight: 800;
   font-size: 20px;
   line-height: 27px;
@@ -189,14 +229,26 @@
   line-height: 27px;
 }
 
-.bg_img_1{
-    background-image: url("/images/texture.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: right bottom;
+.button_3 {
+  width: 147px;
+  height: 57px;
+  border-radius: 17px;
+  margin: 0 0 0 5px !important;
+  background-color: #24AAE2 !important;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
 
-    width: 600px;
-    height: 520px;
+.bg_img_1 {
+  background-image: url("/images/texture.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right bottom;
+
+  max-width: 600px;
+  height: 520px;
 
 }
 
@@ -211,10 +263,19 @@
   background-image: url("/images/Polygon_2.png");
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: left top;
+  background-position: 150px 30px;
+  padding-top: 50px;
 }
 
-.card_1{
+.bg_img_4 {
+  background-image: url("/images/Group_2.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 50px 150px;
+  padding: 10px;
+}
+
+.card_1 {
   width: 375px;
   height: 471px;
   background: #FFFFFF;
@@ -223,7 +284,7 @@
   padding: 20px;
 }
 
-.card_2{
+.card_2 {
   width: 375px;
   height: 471px;
   background: #3F2C40;
