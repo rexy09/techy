@@ -139,7 +139,7 @@ export default function Home() {
             </div>
             <div>
               <Image
-                src="/images/Html 5.png"
+                src="/images/Html5.png"
                 alt="Image"
                 width={86}
                 height={85}
@@ -243,7 +243,7 @@ export default function Home() {
               <div className='col-lg-4 d-flex justify-content-center mb-4'>
                 <div className={styles.card_2}>
                   <Image
-                    src="/images/Insert block-amico.png"
+                    src="/images/Insert-block-amico.png"
                     alt="Image"
                     width={125}
                     height={125}
