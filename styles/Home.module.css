@@ -41,7 +41,7 @@
  }
  .text_3 {
    font-weight: 300;
-   font-size: 14px;
+   font-size: 16px;
    line-height: 27px;
    color: #3F2C40;
  }
@@ -87,7 +87,7 @@
 
 .text_11 {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 34px;
   color: #000000;
   text-align: center;
@@ -121,6 +121,18 @@
   color: #FFFFFF;
 }
 
+.button_3 {
+  width: 117px;
+  height: 57px;
+  border-radius: 17px;
+  margin: 0 0 0 5px !important;
+  background-color: #24AAE2 !important;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+}
+
 
 }
 
@@ -151,7 +163,7 @@
     background-image: url("/images/Polygon_2.png");
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: 30px 30px;
+    background-position: 0px 20px;
     padding-top: 50px;
   }
   .text_2 {
@@ -180,7 +192,7 @@
 
 .text_11 {
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 34px;
   color: #000000;
   text-align: center;
@@ -213,6 +225,18 @@
   font-size: 20px;
   line-height: 27px;
   color: #FFFFFF;
+}
+
+.button_3 {
+  width: 147px;
+  height: 57px;
+  border-radius: 17px;
+  margin: 0 0 0 5px !important;
+  background-color: #24AAE2 !important;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 
@@ -276,9 +300,6 @@
 }
 
 
-
-
-
 .text_18:hover {
   color: #3F2C40;
 }
@@ -292,7 +313,7 @@
 
 .button_1 {
   margin: 0 !important;
-  max-width: 302px;
+  max-width: 300px;
   height: 59px;
   background-color: #3F2C40 !important;
   border-radius: 20px;
@@ -314,24 +335,13 @@
   line-height: 27px;
 }
 
-.button_3 {
-  width: 147px;
-  height: 57px;
-  border-radius: 17px;
-  margin: 0 0 0 5px !important;
-  background-color: #24AAE2 !important;
-  color: #FFFFFF;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
-}
+
 
 .bg_img_1 {
   background-image: url("/images/texture.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: right bottom;
-
   max-width: 600px;
   height: 520px;
 
