@@ -1,0 +1,43 @@
+.container_3 {
+    width: 100%;
+    background: #24AAE2;
+    display: flex;
+    align-items: center;
+}
+
+.text_18:hover {
+    color: #3F2C40;
+}
+
+.text_19 {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+
+/* Media Query max width 426px */
+@media screen and (max-width:425px) {
+
+    .text_18 {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+
+}
+
+
+/* Media Query min width 426px */
+@media screen and (min-width:426px) {
+    
+    .text_18 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+   
+}

@@ -1,11 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Footer from '../components/common/Footer/Footer'
+import Navbar from '../components/common/Navbar/Navbar'
 
 export default function Home() {
   return (
     <div>
       <Head>
+        {/* Required meta tags  */}
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Devhat</title>
         <meta name="description" content="Devhat" />
         <link rel="icon" href="/images/devhat.png" />
@@ -16,56 +21,22 @@ export default function Home() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
       </Head>
 
-      <nav className="navbar navbar-expand-lg navbar-light bg-white" id='#'>
-        <div className="container-fluid px-lg-5 py-3">
-          <a className="navbar-brand" href="#">
-            <h1>Devhat</h1>
-            {/* <Image
-              src="/images/techy_1.png"
-              alt="Image"
-              width={86}
-              height={43}
-            /> */}
-          </a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">Home</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#technologies">Technologies</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#services">Services</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#cloud">Cloud</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#contact">Contact Us</a>
-              </li>
+      {/* Navbar */}
+      <Navbar></Navbar>
 
-            </ul>
-
-          </div>
-        </div>
-      </nav>
       <div className={styles.bg_img_5}>
-        <div className='container-fluid mb-5'>
+        <div className='container mb-5'>
           <div className={styles.container_1}>
             <div className='row py-4 px-lg-5'>
               <div className='col-lg-6 mb-4'>
                 <div className="d-flex justify-content-center">
-                  <div className='' style={{ maxWidth: '100%'}}>
+                  <div className='' style={{ maxWidth: '100%' }}>
                     <h1 className={styles.text_1}>Let<span>&#39;</span>s make you,</h1>
                     <h1 className={styles.text_1}>an eye catching</h1>
                     <h1 className={styles.text_2}>designs.</h1>
                     <p className={`d-none d-sm-none d-md-block ${styles.text_3}`}>Stand out from the rest with your very own <br />
                       elegant and unique design.</p>
-                    <p className={`d-block d-sm-block d-md-none ${styles.text_3}`} style={{maxWidth:300}}>Stand out from the rest with your very own
+                    <p className={`d-block d-sm-block d-md-none ${styles.text_3}`} style={{ maxWidth: 300 }}>Stand out from the rest with your very own
                       elegant and unique design.</p>
                     <a className="" href="#">
                       <div className={styles.button_1}>
@@ -77,7 +48,7 @@ export default function Home() {
                       </div>
                     </a>
 
-                    <div className="d-flex flex-row justify-content-between mt-5" style={{maxWidth:400}}>
+                    <div className="d-flex flex-row justify-content-between mt-5" style={{ maxWidth: 400 }}>
                       <div>
                         <span className={styles.text_4}>21</span>
                         <br />
@@ -112,63 +83,64 @@ export default function Home() {
           </div>
         </div>
 
+        <div className='my-5 container-fluid' style={{ backgroundColor: "#5c415d1a" }} >
+          <div className='container' >
+            <div className="d-flex flex-row justify-content-around mt-5 align-items-center">
+              <div>
+                <Image
+                  src="/images/Django.png"
+                  alt="Image"
+                  width={120}
+                  height={120}
+                />
+              </div>
+              <div>
+                <Image
+                  src="/images/CSS3.png"
+                  alt="Image"
+                  width={106}
+                  height={99}
+                />
+              </div>
+              <div>
+                <Image
+                  src="/images/PostgreSQL.png"
+                  alt="Image"
+                  width={79}
+                  height={80}
+                />
+              </div>
+              <div>
+                <Image
+                  src="/images/Html5.png"
+                  alt="Image"
+                  width={86}
+                  height={85}
+                />
+              </div>
+              <div>
+                <Image
+                  src="/images/React.png"
+                  alt="Image"
+                  width={91}
+                  height={91}
+                />
+              </div>
+              <div>
+                <Image
+                  src="/images/JavaScript.png"
+                  alt="Image"
+                  width={81}
+                  height={81}
+                />
+              </div>
 
-        <div className='my-5' style={{ backgroundColor: "#5c415d1a" }} >
-          <div className="d-flex flex-row justify-content-around mt-5 align-items-center">
-            <div>
-              <Image
-                src="/images/Django.png"
-                alt="Image"
-                width={120}
-                height={120}
-              />
             </div>
-            <div>
-              <Image
-                src="/images/CSS3.png"
-                alt="Image"
-                width={106}
-                height={99}
-              />
-            </div>
-            <div>
-              <Image
-                src="/images/PostgreSQL.png"
-                alt="Image"
-                width={79}
-                height={80}
-              />
-            </div>
-            <div>
-              <Image
-                src="/images/Html5.png"
-                alt="Image"
-                width={86}
-                height={85}
-              />
-            </div>
-            <div>
-              <Image
-                src="/images/React.png"
-                alt="Image"
-                width={91}
-                height={91}
-              />
-            </div>
-            <div>
-              <Image
-                src="/images/JavaScript.png"
-                alt="Image"
-                width={81}
-                height={81}
-              />
-            </div>
-
           </div>
         </div>
 
         <section id='technologies'>
-          <div className='container-fluid'>
+          <div className='container'>
             <div className='row py-5 mt-5 mx-0'>
               <div className='col-lg-6 mb-4'>
                 <div className="d-flex justify-content-center">
@@ -181,7 +153,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='col-lg-6 mb-4'>
-                <div className={styles.bg_img_1} style={{maxWidth:600}}>
+                <div className={styles.bg_img_1} style={{ maxWidth: 600 }}>
                   <h1 className={styles.text_6}>How we use these,</h1>
                   <h1 className={styles.text_7}>Technologies</h1>
                   <p className={styles.text_8}>In a professional context it often happens that private or
@@ -206,7 +178,7 @@ export default function Home() {
 
       </div>
       <section id='services'>
-        <div className='container-fluid mb-5'>
+        <div className='container mb-5'>
           <div className="d-flex justify-content-center">
             <div>
               <h1 ><span className={styles.text_9}>Services</span>  <span className={styles.text_10}>we deliver</span></h1>
@@ -328,7 +300,7 @@ export default function Home() {
       </section>
 
 
-     <section id='contact'>
+      <section id='contact'>
         <div className='container mb-5'>
           <div className="d-flex justify-content-center">
             <div className={[styles.container_2, styles.bg_img_4].join(" ")}>
@@ -359,65 +331,14 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-
-
             </div>
           </div>
         </div>
-     </section>
+      </section>
 
-      <footer className={styles.container_3}>
-        <div className={`container-fluid py-5`}>
-          <div className='row mx-0'>
-            <div className='col-lg-2 mb-4'>
-              <div className="d-flex justify-content-center">
-                <h1 className='text-light'>Devhat</h1>
-                {/* <Image
-                  src="/images/techy_2.png"
-                  alt="Image"
-                  width={82}
-                  height={41}
-                /> */}
-              </div>
-            </div>
-            <div className='col-lg-8 mb-4'>
-              <div className="d-flex flex-row justify-content-center">
-                <div className='px-2'>
-                  <a href="" className={styles.text_18}>Terms and Conditions</a>
-                </div>
-                <div className='px-2'>
-                  <a href="" className={styles.text_18}>Privacy Policy</a>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-2 mb-4'>
-              <div className="d-flex flex-row justify-content-center">
-                <div className='px-3'>
-                  <a href='https://facebook.com/'>
-                    <i className="fa-brands fa-facebook fa-2x text-white"></i>
-                  </a>
-                </div>
-                <div className='px-3'>
-                  <a href='https://linkedin.com/'>
-                    <i className="fa-brands fa-linkedin-in fa-2x text-white"></i>
-                  </a>
-                </div>
-                <div className='px-3'>
-                  <a href='https://twitter.com/'>
-                    <i className="fa-brands fa-twitter fa-2x text-white"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="d-flex justify-content-center">
-            <div>
-              <span className={styles.text_19}>2022</span>
-            </div>
-          </div>
-        </div>
+      {/* Footer */}
+      <Footer></Footer>
 
-      </footer>
       <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossOrigin="anonymous"></script>
     </div>
   )
