@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <Head>
         {/* Required meta tags  */}
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Devhat</title>
         <meta name="description" content="Devhat" />

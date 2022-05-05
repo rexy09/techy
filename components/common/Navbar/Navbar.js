@@ -1,3 +1,5 @@
+import s from './Navbar.module.css'
+
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-white" id='#'>
